@@ -1,0 +1,187 @@
+/* common classes */
+.divHeight{
+	height:100%;
+}
+
+.mainTextColor {
+	color: white;
+}
+
+
+#main{
+	background-image: url("../image/header.jpg");
+	background-size: cover;
+
+}
+#main .container-fluid{
+	padding: 0px;
+}
+#main .navbar{
+	border-radius: 0px;
+}
+
+#main h3 {
+	font-style: italic;
+	font-size: 3em;
+}
+#main h1 {
+	font-size: 5em;
+	font-weight: 700;
+}
+#main .btn {
+	border-radius: 0;
+	padding: 20px;
+}
+#main .content{
+	padding: 50px 0;
+}
+
+
+#services {
+}
+
+#services .mainColor{
+background-color: white;
+}
+#services h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#services i{
+	color: white;
+	background-color: #FED136;
+	border-radius: 100%;
+	padding:30px;
+}
+
+#services h6 {
+	padding: 20px 0;
+	font-style: italic;
+
+}
+#services .content {
+	padding: 50px 0;
+}
+
+
+
+#portfolio {
+	
+}
+#portfolio .mainColor{
+	background-color: lightgray;
+}
+
+#portfolio .content {
+	padding: 50px 0;
+}
+
+#portfolio h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#portfolio h6 {
+	padding: 20px 0;
+	font-style: italic;
+}
+
+
+#about{
+	height: auto;
+}
+#about h1{
+	font-weight: 700;
+}
+#about img , #about .row:last-child{
+	width:175px;
+	height: 175px;
+	border:7px solid #F1F1F1;
+	border-radius: 50%;
+	display: block;
+}
+#about .row{margin-top:120px;}
+#about .row:last-child{
+	color:white;
+	font-size:15px;
+	padding-top:50px;
+	margin-bottom:100px;
+}
+#about hr{
+	transform:rotate(90deg);
+	width:125px;
+	
+}
+#team{
+	height: auto;
+}
+#team .mainColor{
+	background-color: #EEEEEE;
+}
+#team  h1{padding-top: 140px}
+#team img {
+	width: 245px;
+	height: 245px;
+	border:5px solid white;
+	border-radius: 50%;
+	margin:70px 0 25px;
+}
+#team a ,#ending a{	
+	background-color:#222222;
+	width:45px;
+	height: 45px;
+	border-radius: 50%;
+	color:white;
+	padding-top:7px;
+	margin:0px 5px;
+	text-decoration: none;
+	transition:all 0.2s linear;
+}
+#team a:hover , #ending a:hover{
+	text-decoration: none;
+	background-color:#FED136;
+}
+#team div div div:last-child{margin-top:60px;}
+#team div div div:last-child p {margin-bottom: 160px}
+#contact{height: auto}
+#contact img{margin:50px auto;}
+#footer{
+	width:100%;
+	height: auto;
+	background:url('../image/map.jpg') no-repeat center;
+	background-size: cover;
+	padding-bottom:150px;
+}
+#footer h1 {
+	color:white;
+	padding-top:155px;
+	font-weight: 800
+}
+#footer p{
+	color :#BDBDBD;
+	font-size:17px;
+}
+#footer input {
+	width:560px;
+	height: 60px;
+	margin:20px 0;
+	border-color:transparent;
+	border-radius: 5px;
+	padding-left:15px;
+}
+#footer textarea{
+	min-width:555px;
+	min-height: 265px;
+	border-color:transparent;
+	border-radius: 5px;
+	margin-top:17px;
+	padding:15px 0 0 15px
+}
+#footer button {
+	padding:15px 35px;
+	margin-top:20px;
+	margin-left: -70px
+}
+#ending {
+	padding:20px 0;
+}
